@@ -147,69 +147,47 @@ By difficulty:
 | Hybrid   | Mixed queries             | "R&D expenses 2023"            |
 | Keyword  | Exact phrases             | "single-source suppliers"      |
 
+*<img width="2969" height="1769" alt="search_method_recommendations" src="https://github.com/user-attachments/assets/2dd40463-817b-4a1d-8058-dfad88472926" />*
+
 ## 🏢 Multi-Company Analysis
 
 ### When to Use
 
 Use multi-company mode for: - Financial metric comparison\
-- Industry trend analysis\
-- Competitive positioning\
+- Industry trend analysis
+- Competitive positioning
 - Cross-company risks
 
 ### Example Queries
 
--   "Compare Apple and Microsoft revenue streams"\
--   "Common risk factors for AAPL, MSFT, TSLA"\
--   "Tesla R&D vs Apple R&D"\
+-   "Compare Apple and Microsoft revenue streams"
+-   "Common risk factors for AAPL, MSFT, TSLA"
+-   "Tesla R&D vs Apple R&D"
 -   "Supply chain comparison of MSFT and AAPL"
 
 ### Features
 
--   Side-by-side comparison\
--   Benchmarking\
--   Industry insights\
+-   Side-by-side comparison
+-   Benchmarking
+-   Industry insights
 -   Choose 2--3 companies
-
-## 📁 Project Structure
-
-    sec-filings-rag/
-    ├── src/
-    │   ├── streamlit_app.py
-    │   ├── multicompany_semantic_rag.py
-    │   ├── semantic_rag.py
-    │   ├── hybrid_rag.py
-    │   ├── download_multi_company_api.py
-    │   ├── process_10k_files.py
-    │   ├── chunk_processor.py
-    │   └── generate_embeddings.py
-    ├── data/
-    │   ├── raw/
-    │   ├── processed/
-    │   ├── chunks/
-    │   ├── embeddings/
-    │   └── outputs/
-    ├── screenshots/
-    ├── requirements.txt
-    ├── .env.example
-    ├── .gitignore
-    └── README.md
 
 ## 🔧 Technical Details
 
 ### Technologies
 
--   OpenAI API\
--   Streamlit\
--   BeautifulSoup\
--   NumPy\
+-   OpenAI API
+-   Streamlit
+-   BeautifulSoup
+-   NumPy
 -   Tiktoken
 
 ### Data Pipeline
 
-1.  Download 10-K filings\
-2.  Extract sections\
-3.  Chunk text\
-4.  Generate embeddings\
+1.  Download 10-K filings
+2.  Extract sections
+3.  Chunk text
+4.  Generate embeddings
 5.  Build vector index
 
 ## 📄 License
