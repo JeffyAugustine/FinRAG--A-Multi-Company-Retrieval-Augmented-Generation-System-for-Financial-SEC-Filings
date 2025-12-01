@@ -44,7 +44,7 @@ Years: **2023--2024 SEC 10-K filings**
 
 ## 🏗️ System Architecture
 
-*(Image placeholder)*
+*![Flowchart](https://github.com/user-attachments/assets/79aef0d1-66ea-4980-8761-7ac33863fc56)*
 
 ## 🚀 Installation
 
