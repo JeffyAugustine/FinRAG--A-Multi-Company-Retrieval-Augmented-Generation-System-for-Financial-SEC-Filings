@@ -179,3 +179,89 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# ======== YOUR CUSTOM RULES ========
+
+# SEC Data - DO NOT UPLOAD FULL FILES (copyright/space)
+data/raw/*.txt
+data/processed/*.txt
+data/chunks/*.jsonl
+data/embeddings/*.jsonl
+data/outputs/*.json
+
+# But KEEP the folders and README files
+!data/raw/
+!data/processed/
+!data/chunks/
+!data/embeddings/
+!data/outputs/
+!data/raw/README.md
+!data/processed/README.md
+!data/chunks/README.md
+!data/embeddings/README.md
+!data/outputs/README.md
+
+# API keys and sensitive configs
+.env
+.env.local
+.env.*.local
+secrets.json
+config.yaml
+config.yml
+credentials.json
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Screenshots folder - KEEP (for documentation)
+!screenshots/
+screenshots/*.png
+screenshots/*.jpg
+screenshots/*.jpeg
+screenshots/*.gif
+
+# Samples folder - KEEP (small samples for demonstration)
+!samples/
+samples/*.txt
+samples/*.json
+samples/*.jsonl
+samples/*.pdf
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Virtual environment (in case you have it in project root)
+venv/
+env/
+.venv/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Large binary files
+*.zip
+*.tar.gz
+*.7z
+*.rar
+
+# PDF files (if any)
+*.pdf
+
+# Word documents (if any)
+*.docx
+*.doc
