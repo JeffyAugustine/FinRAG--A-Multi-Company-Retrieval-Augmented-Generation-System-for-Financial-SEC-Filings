@@ -227,23 +227,6 @@ def download_all_companies():
         for item in all_failed:
             print(f"   - {item}")
     
-    # Manual option instructions
-    print(" MANUAL DOWNLOAD OPTIONS")
-    print("If automated download fails, you can manually:")
-    print("\n1. Download from SEC EDGAR:")
-    print("   https://www.sec.gov/edgar/search/")
-    print("\n2. Search for CIK numbers:")
-    print("   - Apple: 0000320193")
-    print("   - Microsoft: 0000789019") 
-    print("   - Tesla: 0001318605")
-    print("\n3. For each company, download:")
-    print("   - 2024 10-K filing (.txt format)")
-    print("   - 2023 10-K filing (.txt format)")
-    print("\n4. Save files in ../data/raw/ as:")
-    print("   - AAPL_2024_10K.txt, AAPL_2023_10K.txt")
-    print("   - MSFT_2024_10K.txt, MSFT_2023_10K.txt")
-    print("   - TSLA_2024_10K.txt, TSLA_2023_10K.txt")
-    
     # Check existing files
     print(" CURRENT RAW FILES")
     
