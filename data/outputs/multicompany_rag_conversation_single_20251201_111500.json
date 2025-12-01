@@ -1,0 +1,53 @@
+{
+  "question": "What are Apple's main products?",
+  "answer": "Apple's main products include:\n\n1. iPhone: This is Apple's line of smartphones based on its iOS operating system. The iPhone line includes iPhone 16 Pro, iPhone 16, iPhone 15, iPhone 14, and iPhone SE [Source 1].\n\n2. Mac: This is Apple's line of personal computers based on its macOS operating system. The Mac line includes laptops MacBook Air and MacBook Pro, as well as desktops iMac, Mac mini, Mac Studio, and Mac Pro [Source 1].\n\n3. iPad: This is Apple's line of multipurpose tablets based on its iPadOS operating system. The iPad line includes iPad Pro, iPad Air, iPad, and iPad mini [Source 1].\n\n4. Wearables: This category includes smartwatches, wireless headphones, and spatial computers. The Company\u2019s line of smartwatches, based on its watchOS operating system, includes Apple Watch Ultra 2, Apple Watch Series 10, and Apple Watch SE. The Company\u2019s line of wireless headphones includes AirPods, AirPods Pro, AirPods Max, and Beats products. Apple Vision Pro is the Company\u2019s first spatial computer based on its visionOS operating system [Source 1].\n\n5. Home Products: This includes Apple TV, the Company\u2019s media streaming and gaming device based on its tvOS operating system, and HomePod and HomePod mini, high-fidelity wireless smart speakers [Source 1].\n\n6. Accessories: This includes Apple-branded and third-party accessories [Source 1].\n\n7. Services: The Company offers a portfolio of fee-based service and support products under the AppleCare brand. The offerings provide priority access to Apple technical support, access to the global Apple authorized service network for repair and replacement services, and in many cases additional coverage for instances of accidental damage or theft and loss, depending on the country and type of product [Source 1].\n\n8. Cloud Services: The Company\u2019s cloud services store and keep customers\u2019 content up-to-date and available across multiple Apple devices and Windows personal computers [Source 1].\n\n9. Digital Content and Payment Services: The Company also offers digital content through subscription-based services, including Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; and Apple TV+, which offers exclusive original content and live sports. The Company offers payment services, including Apple Card, a co-branded credit card, and Apple Pay, a cashless payment service [Source 4].",
+  "sources": [
+    {
+      "chunk_id": "AAPL_2024_business_0",
+      "company": "AAPL",
+      "year": 2024,
+      "section": "business",
+      "similarity": 0.623,
+      "text_preview": "The Company designs, manufactures and markets smartphones, personal computers, tablets, wearables and accessories, and sells a variety of related serv..."
+    },
+    {
+      "chunk_id": "AAPL_2023_business_0",
+      "company": "AAPL",
+      "year": 2023,
+      "section": "business",
+      "similarity": 0.618,
+      "text_preview": "The Company designs, manufactures and markets smartphones, personal computers, tablets, wearables and accessories, and sells a variety of related serv..."
+    },
+    {
+      "chunk_id": "AAPL_2023_business_1",
+      "company": "AAPL",
+      "year": 2023,
+      "section": "business",
+      "similarity": 0.509,
+      "text_preview": "The Company also offers digital content through subscription-based services, including Apple Arcade\u00ae, a game subscription service; Apple Fitness+SM, a..."
+    },
+    {
+      "chunk_id": "AAPL_2024_business_1",
+      "company": "AAPL",
+      "year": 2024,
+      "section": "business",
+      "similarity": 0.509,
+      "text_preview": "The Company also offers digital content through subscription-based services, including Apple Arcade\u00ae, a game subscription service; Apple Fitness+SM, a..."
+    },
+    {
+      "chunk_id": "AAPL_2023_mda_0",
+      "company": "AAPL",
+      "year": 2023,
+      "section": "mda",
+      "similarity": 0.461,
+      "text_preview": "Item 7.\u00a0\u00a0\u00a0\u00a0Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations\n\nThe following discussion should be read in conjuncti..."
+    }
+  ],
+  "metadata": {
+    "company": "AAPL",
+    "year": null,
+    "section": null,
+    "mode": "single",
+    "tokens_used": 3106
+  }
+}

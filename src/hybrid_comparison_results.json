@@ -1,0 +1,61 @@
+{
+  "overall_performance": {
+    "hybrid": 4.0,
+    "keyword": 3.67,
+    "semantic": 4.5
+  },
+  "response_times": {
+    "hybrid": 9.81,
+    "keyword": 7.16,
+    "semantic": 8.92
+  },
+  "strength_analysis": {
+    "semantic": {
+      "hybrid": 4.5,
+      "keyword": 3.5,
+      "semantic": 5.0
+    },
+    "keyword": {
+      "hybrid": 3.0,
+      "keyword": 3.0,
+      "semantic": 4.0
+    },
+    "hybrid": {
+      "hybrid": 4.5,
+      "keyword": 4.5,
+      "semantic": 4.5
+    }
+  },
+  "best_cases": {
+    "semantic": [
+      {
+        "question": "R&D expenses 2023",
+        "overall_score": 5.0
+      },
+      {
+        "question": "competitive market pressures",
+        "overall_score": 5.0
+      }
+    ],
+    "keyword": [
+      {
+        "question": "supply chain dependencies",
+        "overall_score": 5.0
+      },
+      {
+        "question": "single-source suppliers in risk factors",
+        "overall_score": 4.0
+      }
+    ],
+    "hybrid": [
+      {
+        "question": "legal proceedings involving antitrust",
+        "overall_score": 5.0
+      },
+      {
+        "question": "supply chain dependencies",
+        "overall_score": 5.0
+      }
+    ]
+  }
+}

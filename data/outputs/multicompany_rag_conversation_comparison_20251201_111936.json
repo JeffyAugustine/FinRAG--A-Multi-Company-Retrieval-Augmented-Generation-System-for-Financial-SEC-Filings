@@ -1,0 +1,74 @@
+{
+  "question": "Compare Tesla 2023 and Microsoft 2024 financials",
+  "answer": "I'm sorry, but there seems to be a mistake in your question. You are asking to compare Tesla's 2023 financials with Microsoft's 2024 financials. However, the information provided is for Microsoft's 2023 financials and Tesla's 2022 financials. Could you please provide the correct information or revise your question?",
+  "comparison": {
+    "MSFT": {
+      "chunks_found": 3,
+      "avg_similarity": 0.542,
+      "sections": [
+        "mda",
+        "business",
+        "financials"
+      ]
+    },
+    "TSLA": {
+      "chunks_found": 3,
+      "avg_similarity": 0.571,
+      "sections": [
+        "mda"
+      ]
+    }
+  },
+  "sources_by_company": {
+    "MSFT": [
+      {
+        "chunk_id": "MSFT_2023_mda_0",
+        "section": "mda",
+        "similarity": 0.569,
+        "text_preview": "The following Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations (\u201cMD&A\u201d) is intended..."
+      },
+      {
+        "chunk_id": "MSFT_2023_financials_0",
+        "section": "financials",
+        "similarity": 0.529,
+        "text_preview": "The financial statements are set forth under Part II, Item 8 of this Form 10-K, as indexed below. Financial statement sc..."
+      },
+      {
+        "chunk_id": "MSFT_2023_business_4",
+        "section": "business",
+        "similarity": 0.529,
+        "text_preview": "We are focused on helping customers use the breadth and depth of the Microsoft Cloud to get the most value out of their ..."
+      }
+    ],
+    "TSLA": [
+      {
+        "chunk_id": "TSLA_2023_mda_1",
+        "section": "mda",
+        "similarity": 0.578,
+        "text_preview": "We ended 2022 with $22.19 billion in cash and cash equivalents and investments, representing an increase of $4.48 billio..."
+      },
+      {
+        "chunk_id": "TSLA_2023_mda_12",
+        "section": "mda",
+        "similarity": 0.572,
+        "text_preview": "Automotive sales revenue increased $23.09 billion, or 52%, in the year ended December 31, 2022 as compared to the year e..."
+      },
+      {
+        "chunk_id": "TSLA_2023_mda_2",
+        "section": "mda",
+        "similarity": 0.563,
+        "text_preview": "Our cost reduction efforts, cost innovation strategies, and additional localized procurement and manufacturing are key t..."
+      }
+    ]
+  },
+  "metadata": {
+    "mode": "comparison",
+    "companies": [
+      "MSFT",
+      "TSLA"
+    ],
+    "year": 2023,
+    "section": "financials",
+    "tokens_used": 3163
+  }
+}

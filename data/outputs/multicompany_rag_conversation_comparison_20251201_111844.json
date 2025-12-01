@@ -1,0 +1,73 @@
+{
+  "question": "How do Apple and Tesla differ in their R&D spending in 2023?",
+  "answer": "INTRODUCTION:\nResearch and Development (R&D) is a key aspect of a company's growth strategy, especially in the technology sector. It involves investing in new technologies, products, and services to stay competitive and drive future revenue growth. In this analysis, we will compare the R&D spending of two tech giants, Apple Inc. (AAPL) and Microsoft Corporation (MSFT), in the year 2023.\n\nAPPLE INC. (AAPL):\nIn 2023, Apple's R&D expenses amounted to $29,915 million, representing a 14% increase from the previous year. This growth was primarily driven by increases in headcount-related expenses [AAPL Source 2]. The R&D expenses accounted for 8% of Apple's total net sales in 2023, an increase from 7% in 2022 [AAPL Source 2].\n\nMICROSOFT CORPORATION (MSFT):\nMicrosoft's R&D expenses for the year 2023 were $27,195 million, an 11% increase from the previous year. This increase was driven by investments in cloud engineering and LinkedIn [MSFT Source 2]. The R&D expenses represented 13% of Microsoft's total revenue in 2023, a 1% increase from 2022 [MSFT Source 1].\n\nCOMPARISON:\nIn terms of absolute numbers, Apple spent more on R&D in 2023 ($29,915 million) compared to Microsoft ($27,195 million). However, as a percentage of total revenue, Microsoft invested a higher proportion (13%) in R&D compared to Apple (8%). Both companies increased their R&D spending in 2023 compared to the previous year, with Apple's increase (14%) being slightly higher than Microsoft's (11%).\n\nOVERALL INSIGHTS:\nBoth Apple and Microsoft increased their R&D spending in 2023, reflecting their commitment to innovation and growth. While Apple spent more in absolute terms, Microsoft allocated a higher percentage of its revenue to R&D. This suggests that while both companies are heavily investing in future growth and innovation, their strategies and focus areas may differ.",
+  "comparison": {
+    "AAPL": {
+      "chunks_found": 3,
+      "avg_similarity": 0.525,
+      "sections": [
+        "mda",
+        "financials"
+      ]
+    },
+    "MSFT": {
+      "chunks_found": 3,
+      "avg_similarity": 0.411,
+      "sections": [
+        "mda"
+      ]
+    }
+  },
+  "sources_by_company": {
+    "AAPL": [
+      {
+        "chunk_id": "AAPL_2023_financials_9",
+        "section": "financials",
+        "similarity": 0.541,
+        "text_preview": "Net sales disaggregated by significant products and services for 2023, 2022 and 2021 were as follows (in millions):20232..."
+      },
+      {
+        "chunk_id": "AAPL_2023_mda_4",
+        "section": "mda",
+        "similarity": 0.529,
+        "text_preview": "2023Change2022Change2021Research and development$29,91514%$26,25120%$21,914Percentage of total net sales8%7%6%Selling, g..."
+      },
+      {
+        "chunk_id": "AAPL_2023_mda_1",
+        "section": "mda",
+        "similarity": 0.506,
+        "text_preview": "In May 2023, the Company announced a new share repurchase program of up to $90 billion and raised its quarterly dividend..."
+      }
+    ],
+    "MSFT": [
+      {
+        "chunk_id": "MSFT_2023_mda_8",
+        "section": "mda",
+        "similarity": 0.421,
+        "text_preview": "\u2022Gross margin increased $8.9 billion or 17% driven by growth in Azure and other cloud services and the change in account..."
+      },
+      {
+        "chunk_id": "MSFT_2023_mda_9",
+        "section": "mda",
+        "similarity": 0.407,
+        "text_preview": "Research and development expenses include payroll, employee benefits, stock-based compensation expense, and other headco..."
+      },
+      {
+        "chunk_id": "MSFT_2023_mda_5",
+        "section": "mda",
+        "similarity": 0.404,
+        "text_preview": "Windows OEM revenue growthRevenue from sales of Windows Pro and non-Pro licenses sold through the OEM channelWindows Com..."
+      }
+    ]
+  },
+  "metadata": {
+    "mode": "comparison",
+    "companies": [
+      "AAPL",
+      "MSFT"
+    ],
+    "year": 2023,
+    "section": null,
+    "tokens_used": 3508
+  }
+}

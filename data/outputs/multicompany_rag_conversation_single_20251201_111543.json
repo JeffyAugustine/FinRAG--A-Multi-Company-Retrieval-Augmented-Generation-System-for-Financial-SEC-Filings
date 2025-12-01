@@ -1,0 +1,53 @@
+{
+  "question": "What are Microsoft's financial metrics?",
+  "answer": "I cannot find this information in the available documents. The provided context from the SEC 10-K filings does not include specific financial metrics for Microsoft.",
+  "sources": [
+    {
+      "chunk_id": "MSFT_2023_financials_0",
+      "company": "MSFT",
+      "year": 2023,
+      "section": "financials",
+      "similarity": 0.55,
+      "text_preview": "The financial statements are set forth under Part II, Item 8 of this Form 10-K, as indexed below. Financial statement schedules have been omitted sinc..."
+    },
+    {
+      "chunk_id": "MSFT_2024_financials_0",
+      "company": "MSFT",
+      "year": 2024,
+      "section": "financials",
+      "similarity": 0.546,
+      "text_preview": "The financial statements are set forth under Part II, Item 8 of this Form 10-K, as indexed below. Financial statement schedules have been omitted sinc..."
+    },
+    {
+      "chunk_id": "MSFT_2024_financials_7",
+      "company": "MSFT",
+      "year": 2024,
+      "section": "financials",
+      "similarity": 0.507,
+      "text_preview": "Incorporated by ReferenceExhibitNumberExhibit DescriptionFiledHerewithFormPeriodEndingExhibitFiling Date10.24*Long-Term Performance Stock Award Agreem..."
+    },
+    {
+      "chunk_id": "MSFT_2023_financials_5",
+      "company": "MSFT",
+      "year": 2023,
+      "section": "financials",
+      "similarity": 0.499,
+      "text_preview": "267/30/202010. 14*Microsoft Corporation Deferred Compensation Plan for Non-Employee Directors10-Q12/31/201710. 141/31/201810. 15*Microsoft Corporation..."
+    },
+    {
+      "chunk_id": "MSFT_2024_financials_6",
+      "company": "MSFT",
+      "year": 2024,
+      "section": "financials",
+      "similarity": 0.47,
+      "text_preview": "11Form of Indemnification Agreement and Amended and Restated Directors\u2019 Indemnification Trust Agreement between Microsoft Corporation and The Bank of ..."
+    }
+  ],
+  "metadata": {
+    "company": "MSFT",
+    "year": null,
+    "section": "financials",
+    "mode": "single",
+    "tokens_used": 2145
+  }
+}

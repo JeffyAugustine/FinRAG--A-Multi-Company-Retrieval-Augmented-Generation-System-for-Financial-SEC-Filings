@@ -1,0 +1,23 @@
+{
+  "total_chunks": 520,
+  "total_tokens": 219608,
+  "estimated_cost": 0.004392160000000001,
+  "embedding_model": "text-embedding-3-small",
+  "companies": [
+    "AAPL",
+    "MSFT",
+    "TSLA"
+  ],
+  "years": [
+    2024,
+    2023
+  ],
+  "sections": [
+    "mda",
+    "risk_factors",
+    "financials",
+    "business",
+    "properties",
+    "legal"
+  ]
+}

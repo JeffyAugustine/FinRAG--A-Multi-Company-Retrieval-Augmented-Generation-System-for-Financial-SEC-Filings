@@ -1,0 +1,53 @@
+{
+  "question": "What are Apple's risk factors in 2024?",
+  "answer": "Apple's risk factors in 2024 include:\n\n1. Design and Manufacturing Defects: Apple's complex hardware and software products can be affected by design and manufacturing defects, which can interfere with the intended operation of these products and services. Defects can also exist in components and products purchased from third parties. These defects can make Apple's products unsafe and create a risk of environmental or property damage and personal injury. The introduction of new and complex technologies, such as artificial intelligence features, can increase these and other safety risks [Source 1].\n\n2. Economic Conditions: Apple's operations and performance depend significantly on global and regional economic conditions. Adverse macroeconomic conditions, including slow growth or recession, high unemployment, inflation, tighter credit, higher interest rates, and currency fluctuations, can adversely impact consumer confidence and spending and materially adversely affect demand for Apple's products and services [Source 2].\n\n3. Data Security Risks: Apple has implemented systems and processes intended to secure its information technology systems and prevent unauthorized access to or loss of sensitive data. However, these security measures may not be sufficient for all eventualities and are vulnerable to hacking, ransomware attacks, employee error, malfeasance, system error, faulty password management or other irregularities [Source 3].\n\n4. Environmental, Social and Governance Considerations: Responding to environmental, social and governance considerations and implementation of Apple's announced goals and initiatives involves risks and uncertainties, requires investments, and depends in part on third-party performance or data that is outside Apple's control [Source 4].\n\n5. International Trade Restrictions: Restrictions on international trade, such as tariffs and other controls on imports or exports of goods, technology or data, can materially adversely affect Apple's business and supply chain. The impact can be particularly significant if these restrictive measures apply to countries and regions where Apple derives a significant portion of its revenues and/or has significant supply chain operations [Source 5].",
+  "sources": [
+    {
+      "chunk_id": "AAPL_2024_risk_factors_8",
+      "company": "AAPL",
+      "year": 2024,
+      "section": "risk_factors",
+      "similarity": 0.434,
+      "text_preview": "The Company offers complex hardware and software products and services that can be affected by design and manufacturing defects. Sophisticated operati..."
+    },
+    {
+      "chunk_id": "AAPL_2024_risk_factors_0",
+      "company": "AAPL",
+      "year": 2024,
+      "section": "risk_factors",
+      "similarity": 0.414,
+      "text_preview": "The Company\u2019s business, reputation, results of operations, financial condition and stock price can be affected by a number of factors, whether current..."
+    },
+    {
+      "chunk_id": "AAPL_2024_risk_factors_15",
+      "company": "AAPL",
+      "year": 2024,
+      "section": "risk_factors",
+      "similarity": 0.404,
+      "text_preview": "The Company has implemented systems and processes intended to secure its information technology systems and prevent unauthorized access to or loss of ..."
+    },
+    {
+      "chunk_id": "AAPL_2024_risk_factors_19",
+      "company": "AAPL",
+      "year": 2024,
+      "section": "risk_factors",
+      "similarity": 0.402,
+      "text_preview": "Many governments, regulators, investors, employees, customers and other stakeholders are increasingly focused on environmental, social and governance ..."
+    },
+    {
+      "chunk_id": "AAPL_2024_risk_factors_2",
+      "company": "AAPL",
+      "year": 2024,
+      "section": "risk_factors",
+      "similarity": 0.395,
+      "text_preview": "The Company has a large, global business with sales outside the U.S. representing a majority of the Company\u2019s total net sales, and the Company believe..."
+    }
+  ],
+  "metadata": {
+    "company": "AAPL",
+    "year": 2024,
+    "section": "risk_factors",
+    "mode": "single",
+    "tokens_used": 2867
+  }
+}

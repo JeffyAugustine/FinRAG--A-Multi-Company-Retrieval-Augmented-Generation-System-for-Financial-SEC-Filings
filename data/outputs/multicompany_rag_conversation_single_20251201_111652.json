@@ -1,0 +1,53 @@
+{
+  "question": "Tell me about Tesla's legal proceedings",
+  "answer": "- Tesla has faced several legal proceedings, including stockholder derivative actions and class actions, as well as requests for information from regulators and governmental authorities. [Source 1, Source 2, Source 3, Source 4, Source 5]\n\n- On June 16, 2022, two Tesla stockholders filed separate derivative actions against certain of Tesla\u2019s current and former directors, alleging breach of fiduciary duty, unjust enrichment, and violation of federal securities laws in connection with alleged race and gender discrimination and sexual harassment. The cases were consolidated and a motion to dismiss the case was filed by the defendants on November 7, 2022. [Source 1]\n\n- Between September 1, 2016, and October 5, 2016, seven lawsuits were filed by purported stockholders of Tesla challenging Tesla's acquisition of SolarCity. The lawsuit was resolved with a settlement approved by the Court on August 17, 2020, and Tesla received payment of approximately $43 million on September 16, 2020. [Source 2]\n\n- Between August 10, 2018, and September 6, 2018, nine purported stockholder class actions were filed against Tesla and Elon Musk in connection with Mr. Musk\u2019s statement that he was considering taking Tesla private. A jury rendered a verdict in favor of the defendants on all counts on February 3, 2023. [Source 3]\n\n- Between October 17, 2018, and March 8, 2021, seven derivative lawsuits were filed in the Delaware Court of Chancery, purportedly on behalf of Tesla, against Mr. Musk and the members of Tesla\u2019s board of directors, in relation to statements made and actions connected to a potential going private transaction. These cases have been consolidated and stayed pending resolution of the above-referenced consolidated purported stockholder class action. [Source 4]\n\n- On October 21, 2022, a lawsuit was filed in the Delaware Court of Chancery by a purported shareholder of Tesla alleging that board members breached their fiduciary duties in connection with their oversight of the Company\u2019s 2018 settlement with the SEC. The case was stayed until March 7, 2023. [Source 4]\n\n- Tesla has received requests for information from regulators and governmental authorities, such as the National Highway Traffic Safety Administration, the National Transportation Safety Board, the SEC, the Department of Justice (\u201cDOJ\u201d) and various state, federal, and international agencies. The SEC had issued subpoenas to Tesla in connection with Elon Musk\u2019s prior statement that he was considering taking Tesla private. The company has also received requests from the DOJ for documents related to Tesla\u2019s Autopilot and FSD features. [Source 1]\n\n- Tesla is also subject to various other legal proceedings and claims that arise from the normal course of business activities. The company acknowledges the possibility of a material adverse impact on its business, results of operations, prospects, cash flows, financial position and brand if an unfavorable ruling or development were to occur. [Source 1]",
+  "sources": [
+    {
+      "chunk_id": "TSLA_2023_legal_8",
+      "company": "TSLA",
+      "year": 2023,
+      "section": "legal",
+      "similarity": 0.691,
+      "text_preview": "On June 16, 2022,twoTesla stockholders filed separate derivative actions in the U.S. District Court for the Western District of Texas, purportedly on ..."
+    },
+    {
+      "chunk_id": "TSLA_2023_legal_0",
+      "company": "TSLA",
+      "year": 2023,
+      "section": "legal",
+      "similarity": 0.669,
+      "text_preview": "Between September 1, 2016 and October 5, 2016,sevenlawsuits were filed in the Delaware Court of Chancery by purported stockholders of Tesla challengin..."
+    },
+    {
+      "chunk_id": "TSLA_2024_legal_1",
+      "company": "TSLA",
+      "year": 2024,
+      "section": "legal",
+      "similarity": 0.662,
+      "text_preview": "Between August 10, 2018 and September\u00a06, 2018,ninepurported stockholder class actions were filed against Tesla and Elon Musk in connection with Mr. Mu..."
+    },
+    {
+      "chunk_id": "TSLA_2023_legal_5",
+      "company": "TSLA",
+      "year": 2023,
+      "section": "legal",
+      "similarity": 0.662,
+      "text_preview": "Between October 17, 2018 and March 8, 2021,sevenderivative lawsuits were filed in the Delaware Court of Chancery, purportedly on behalf of Tesla, agai..."
+    },
+    {
+      "chunk_id": "TSLA_2023_legal_4",
+      "company": "TSLA",
+      "year": 2023,
+      "section": "legal",
+      "similarity": 0.658,
+      "text_preview": "Between August 10, 2018 and September 6, 2018,ninepurported stockholder class actions were filed against Tesla and Elon Musk in connection with Mr. Mu..."
+    }
+  ],
+  "metadata": {
+    "company": "TSLA",
+    "year": null,
+    "section": "legal",
+    "mode": "single",
+    "tokens_used": 3137
+  }
+}

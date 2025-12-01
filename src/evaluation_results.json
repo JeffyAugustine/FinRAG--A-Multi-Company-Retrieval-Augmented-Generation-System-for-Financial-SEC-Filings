@@ -1,0 +1,91 @@
+{
+  "summary": {
+    "total_tests": 5,
+    "average_faithfulness": 4.6,
+    "average_relevance": 4.2,
+    "average_citations": 4.6,
+    "overall_score": 4.465999999999999
+  },
+  "by_difficulty": {
+    "easy": 5.0,
+    "medium": 4.11,
+    "hard": 5.0
+  },
+  "detailed_results": [
+    {
+      "test_id": 1,
+      "question": "What were Apple's main competitive risks mentioned in the 2023 10-K?",
+      "difficulty": "medium",
+      "faithfulness": 5,
+      "answer_relevance": 4,
+      "citation_accuracy": 4,
+      "overall_score": 4.33,
+      "rag_answer": "Apple's main competitive risks mentioned in the 2023 10-K include:\n\n- Dependence on the timely introduction of innovative new products, services, and technologies: Apple's ability to compete successfully heavily relies on its ability to introduce new and innovative products, services, and technologies to the market. The company must make significant investments in R&D, and there is no assurance that these investments will achieve expected returns. There is a risk that Apple may not be able to develop and market new products and services successfully [Source 2].\n\n- Intellectual property infringement: Many of Apple's competitors seek to compete primarily through aggressive pricing, very low cost structures, and by imitating Apple's products and infringing on its intellectual property. Effective intellectual property protection is not consistently available in every country in which Apple operates. If Apple is unable to continue to develop and sell innovative new products with attractive margins or if competitors infringe on Apple's intellectual property, Apple's ability to maintain a competitive advantage could be materially adversely affected [Source 2].\n\n- Intense competition in the global smartphone, personal computer, and tablet markets: Apple has a minority market share in these markets and faces substantial competition from companies that have significant technical, marketing, distribution, and other resources, as well as established hardware, software, and digital content supplier relationships. Some of Apple's competitors have broader product lines, lower-priced products, and a larger installed base of active devices. Competition has been particularly intense as competitors have aggressively cut prices and lowered product margins [Source 2].\n\n- Imitation of product features and applications: Apple faces significant competition as competitors imitate the company's product features and applications within their products or collaborate to offer solutions that are more competitive than those they currently offer. Apple also expects competition to intensify as competitors imitate the company's approach to providing components seamlessly within their offerings or work collaboratively to offer integrated solutions [Source 2].\n\n- Competition in services: Apple's services also face substantial competition, including from companies that have significant resources and experience and have established service offerings with large customer bases. Apple competes with business models that provide content to users for free and also competes with illegitimate means to obtain third-party digital content and applications [Source 1].",
+      "sources_used": [
+        "AAPL_2024_risk_factors_4",
+        "AAPL_2023_risk_factors_4",
+        "AAPL_2023_business_1"
+      ]
+    },
+    {
+      "test_id": 2,
+      "question": "What were Apple's R&D expenses in 2023 and 2024?",
+      "difficulty": "easy",
+      "faithfulness": 5,
+      "answer_relevance": 5,
+      "citation_accuracy": 5,
+      "overall_score": 5,
+      "rag_answer": "- In 2023, Apple's Research and Development (R&D) expenses were $29,915 million. [Source 1]\n- In 2024, Apple's R&D expenses increased to $31,370 million. [Source 1]",
+      "sources_used": [
+        "AAPL_2024_mda_3",
+        "AAPL_2023_mda_4",
+        "AAPL_2023_financials_9"
+      ]
+    },
+    {
+      "test_id": 3,
+      "question": "What supply chain risks does Apple face?",
+      "difficulty": "medium",
+      "faithfulness": 4,
+      "answer_relevance": 4,
+      "citation_accuracy": 4,
+      "overall_score": 4,
+      "rag_answer": "Apple faces several supply chain risks, including:\n\n1. International Trade Restrictions: Apple's business and supply chain can be materially adversely affected by restrictions on international trade, such as tariffs and other controls on imports or exports of goods, technology, or data. These restrictions can increase the cost of Apple's products and the components and raw materials that go into them. They can also require Apple to take various actions, such as changing suppliers, restructuring business relationships and operations, and ceasing to offer and distribute affected products, services, and third-party applications to its customers. These changes can be expensive, time-consuming, and disruptive to Apple's operations [Source 1].\n\n2. Natural Disasters and Other Unforeseen Events: Many of Apple's operations and facilities, as well as critical business operations of Apple's suppliers and contract manufacturers, are in locations that are prone to earthquakes and other natural disasters. Global climate change is resulting in certain types of natural disasters and extreme weather occurring more frequently or with more intense effects. Apple's operations and facilities are also subject to the risk of interruption by fire, power shortages, nuclear power plant accidents and other industrial accidents, terrorist attacks and other hostile acts, ransomware and other cybersecurity attacks, labor disputes, public health issues, and other events beyond Apple's control [Source 1].\n\n3. Single or Limited Sources of Supply: Although most components essential to Apple's business are generally available from multiple sources, certain components are currently obtained from single or limited sources. Apple also competes for various components with other participants in the markets for smartphones, personal computers, tablets, wearables, and accessories. Therefore, many components used by Apple, including those that are available from multiple sources, are at times subject to industry-wide shortage and significant commodity pricing fluctuations [Source 2].\n\n4. Dependence on Outsourcing Partners: Substantially all of Apple's manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan, and Vietnam. Any failure of these partners to perform can have a negative impact on Apple's cost or supply of components or finished goods. In addition, manufacturing or logistics in these locations or transit to final destinations can be disrupted for a variety of reasons, including natural and man-made disasters, information technology system failures, commercial disputes, armed conflict, economic, business, labor, environmental, public health or political issues, or international trade disputes [Source 3].\n\n5. Supplier Code of Conduct Viol",
+      "sources_used": [
+        "AAPL_2024_risk_factors_2",
+        "AAPL_2024_financials_24",
+        "AAPL_2023_risk_factors_6"
+      ]
+    },
+    {
+      "test_id": 4,
+      "question": "How does Apple generate revenue from services?",
+      "difficulty": "medium",
+      "faithfulness": 4,
+      "answer_relevance": 3,
+      "citation_accuracy": 5,
+      "overall_score": 4,
+      "rag_answer": "Apple generates revenue from services in the following ways:\n\n- For third-party applications sold through the App Store, Apple does not obtain control of the product before transferring it to the customer. Therefore, Apple accounts for all third-party application-related sales on a net basis by recognizing in Services net sales only the commission it retains [Source 1].\n\n- Services net sales also include the amortization of the deferred value of services bundled in the sales price of certain products [Source 1].\n\n- For arrangements with multiple performance obligations, Apple allocates revenue to all distinct performance obligations based on their relative stand-alone selling prices (SSPs). This includes the right to receive certain product-related bundled services, which include iCloud, Siri, and Maps [Source 2, Source 3].\n\n- Revenue allocated to product-related bundled services is deferred and recognized on a straight-line basis over the estimated period they are expected to be provided [Source 2, Source 3].\n\n- For certain long-term service arrangements, Apple has performance obligations for services it has not yet delivered. The Company has determined that any unbilled consideration relates entirely to the value of the undelivered services [Source 2, Source 3].\n\n- In 2024, the total net sales from services were $96,169 million [Source 1].",
+      "sources_used": [
+        "AAPL_2024_financials_8",
+        "AAPL_2024_financials_7",
+        "AAPL_2023_financials_7"
+      ]
+    },
+    {
+      "test_id": 5,
+      "question": "What legal proceedings involving antitrust is Apple currently facing?",
+      "difficulty": "hard",
+      "faithfulness": 5,
+      "answer_relevance": 5,
+      "citation_accuracy": 5,
+      "overall_score": 5,
+      "rag_answer": "Apple is currently facing several legal proceedings involving antitrust:\n\n1. The Commission has opened two formal noncompliance investigations against Apple under the DMA. The investigations concern Article 5(4) and Article 6(3) of the DMA, relating to how developers communicate and promote offers to end users for apps distributed through the App Store, and to default settings, uninstallation of apps, and a web browser choice screen on iOS. On June 24, 2024, the Commission announced its preliminary findings in the Article 5(4) investigation alleging that Apple\u2019s App Store rules are in breach of the DMA. It also opened a third formal investigation against Apple regarding whether the Company\u2019s new contractual requirements for third-party app developers and app marketplaces may violate the DMA [Source 1].\n\n2. On March 21, 2024, the U.S. Department of Justice (DOJ) and a number of state and district attorneys general filed a civil antitrust lawsuit against Apple alleging monopolization or attempted monopolization in the markets for \u201cperformance smartphones\u201d and \u201csmartphones\u201d in violation of U.S. antitrust laws. In addition, various civil litigation matters have been filed in state and federal courts in the U.S. alleging similar violations of U.S. antitrust laws [Source 1].\n\n3. Apple is also subject to antitrust investigations and litigation in various jurisdictions around the world, including Europe, relating to App Store terms and conditions [Source 2].\n\n4. Epic Games, Inc. filed a lawsuit against Apple alleging violations of federal and state antitrust laws and California\u2019s unfair competition law based upon Apple\u2019s operation of its App Store. The California District Court found that certain provisions of Apple\u2019s App Store Review Guidelines violate California\u2019s unfair competition law and issued an injunction enjoining Apple from prohibiting developers from including in their apps external links that direct customers to purchasing mechanisms other than Apple in-app purchasing [Source 3].",
+      "sources_used": [
+        "AAPL_2024_legal_0",
+        "AAPL_2024_risk_factors_20",
+        "AAPL_2024_legal_1"
+      ]
+    }
+  ]
+}

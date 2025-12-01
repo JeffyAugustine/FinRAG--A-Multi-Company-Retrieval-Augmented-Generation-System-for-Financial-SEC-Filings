@@ -1,0 +1,20 @@
+{
+  "total_chunks": 520,
+  "by_company": {
+    "AAPL": 150,
+    "MSFT": 178,
+    "TSLA": 192
+  },
+  "by_year": {
+    "2023": 251,
+    "2024": 269
+  },
+  "by_section": {
+    "business": 99,
+    "financials": 101,
+    "legal": 27,
+    "mda": 105,
+    "properties": 6,
+    "risk_factors": 182
+  }
+}
