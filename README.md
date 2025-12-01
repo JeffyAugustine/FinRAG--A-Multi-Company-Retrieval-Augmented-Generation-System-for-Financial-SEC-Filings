@@ -97,55 +97,55 @@ streamlit run streamlit_app.py
 
 #### Single-Company
 
--   "What are Apple's main competitive risks?"\
--   "Microsoft's cloud computing strategy"\
+-   "What are Apple's main competitive risks?"
+-   "Microsoft's cloud computing strategy"
 -   "What were Tesla's revenue in 2023?"
 
 #### Multi-Company Comparison
 
--   "Compare risk factors of Apple and Microsoft"\
--   "How do Apple and Tesla differ in R&D spending?"\
+-   "Compare risk factors of Apple and Microsoft"
+-   "How do Apple and Tesla differ in R&D spending?"
 -   "Compare business models across all three companies"
 
 #### Filtered Queries
 
--   "Apple 2023 financial metrics"\
--   "Tesla risk factors in supply chain"\
+-   "Apple 2023 financial metrics"
+-   "Tesla risk factors in supply chain"
 -   "Microsoft legal proceedings 2024"
 
 ## 📈 Performance Evaluation
 
 ### Overall Search Method Performance
 
-  Search Method   Score (/5.0)   Avg Response Time   Best For
-  --------------- -------------- ------------------- ---------------------
-  Semantic        **4.50 ⭐**    8.92s               Conceptual queries
-  Hybrid          4.00           9.81s               Mixed queries
-  Keyword         3.67           7.16s               Exact term matching
+| Search Method | Score (/5.0) | Avg Response Time | Best For             |
+|---------------|--------------|-------------------|----------------------|
+| **Semantic**  | **4.50 ⭐**   | 8.92s             | Conceptual queries   |
+| Hybrid        | 4.00         | 9.81s             | Mixed queries        |
+| Keyword       | 3.67         | 7.16s             | Exact term matching  |
 
-(Performance chart placeholder)
+*<img width="3569" height="1470" alt="hybrid_comparison_charts" src="https://github.com/user-attachments/assets/b2eb8307-ae31-4b60-9b4a-2d7188d6d221" />*
 
 ### Detailed Evaluation
 
--   **Overall Score:** 4.47/5.0 🏆\
--   **Faithfulness:** 4.60\
--   **Relevance:** 4.20\
+-   **Overall Score:** 4.47/5.0 🏆
+-   **Faithfulness:** 4.60
+-   **Relevance:** 4.20
 -   **Citation Accuracy:** 4.60
 
-By difficulty:\
-- Easy: **5.0**\
-- Medium: **4.11**\
+By difficulty:
+- Easy: **5.0**
+- Medium: **4.11**
 - Hard: **5.0**
 
-(Evaluation chart placeholder)
+*<img width="3569" height="2965" alt="evaluation_results" src="https://github.com/user-attachments/assets/332e9d5a-5e68-4677-a74d-2df398ff7588" />*
 
 ## 🎯 Search Method Recommendations
 
-  Method     Best For                Example
-  ---------- ----------------------- --------------------------------
-  Semantic   Conceptual & abstract   "competitive market pressures"
-  Hybrid     Mixed queries           "R&D expenses 2023"
-  Keyword    Exact phrases           "single-source suppliers"
+| Method   | Best For                 | Example                        |
+|----------|---------------------------|--------------------------------|
+| Semantic | Conceptual & abstract     | "competitive market pressures" |
+| Hybrid   | Mixed queries             | "R&D expenses 2023"            |
+| Keyword  | Exact phrases             | "single-source suppliers"      |
 
 ## 🏢 Multi-Company Analysis
 
