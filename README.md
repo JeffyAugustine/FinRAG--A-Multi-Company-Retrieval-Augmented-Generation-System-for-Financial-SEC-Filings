@@ -11,35 +11,35 @@ This project implements a sophisticated RAG (Retrieval-Augmented
 Generation) system that enables financial analysts, researchers, and
 investors to:
 
--   Analyze individual SEC 10-K filings with semantic precision\
--   Compare financial disclosures across multiple companies\
--   Extract key insights using AI-powered natural language queries\
+-   Analyze individual SEC 10-K filings with semantic precision  
+-   Compare financial disclosures across multiple companies  
+-   Extract key insights using AI-powered natural language queries  
 -   Filter results by year, section, and company for targeted analysis
 
-Supported Companies: **Apple (AAPL), Microsoft (MSFT), Tesla (TSLA)**\
+Supported Companies: **Apple (AAPL), Microsoft (MSFT), Tesla (TSLA)**  
 Years: **2023--2024 SEC 10-K filings**
 
 ## ✨ Key Features
 
 ### 🔍 Three Search Modes
 
--   **Semantic Search** -- AI-powered conceptual understanding\
--   **Hybrid Search** -- Combines semantic + keyword + filters\
+-   **Semantic Search** -- AI-powered conceptual understanding  
+-   **Hybrid Search** -- Combines semantic + keyword + filters  
 -   **Multi-Company Analysis** -- Compare filings across AAPL, MSFT,
     TSLA
 
 ### 🏢 Multi-Company Capabilities
 
--   Single-company deep analysis\
--   Side-by-side comparison of 2--3 companies\
--   Cross-company benchmarking\
+-   Single-company deep analysis  
+-   Side-by-side comparison of 2--3 companies  
+-   Cross-company benchmarking  
 -   Auto-detection of companies and years from queries
 
 ### ⚡ Advanced Filtering
 
--   Company filter (AAPL, MSFT, TSLA, All)\
--   Year filter (2023, 2024, or both)\
--   SEC 10-K section targeting\
+-   Company filter (AAPL, MSFT, TSLA, All)  
+-   Year filter (2023, 2024, or both)  
+-   SEC 10-K section targeting  
 -   Real-time semantic search using OpenAI embeddings
 
 ## 🏗️ System Architecture
