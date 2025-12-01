@@ -124,18 +124,6 @@ def fetch_10k_filings(ticker, years_back=3):
             
         print(f"\nDownload summary: {successful_downloads}/{len(filings)} files successfully saved to {raw_dir}/")
         
-        if successful_downloads == 0:
-            print("\n" + "="*60)
-            print("ALTERNATIVE MANUAL OPTION:")
-            print("Since automated download is being blocked, you can:")
-            print("1. Manually download 10-K filings from:")
-            print("   https://www.sec.gov/edgar/searchedgar/companysearch")
-            print("2. Search for 'Apple Inc.' (CIK: 0000320193)")
-            print("3. Download the '10-K' filings as text files")
-            print("4. Save them to the 'data/raw/' folder")
-            print("5. Name them as: AAPL_10K_2024.txt, AAPL_10K_2023.txt, etc.")
-            print("="*60)
-        
     except Exception as e:
         print(f"Error: {e}")
 
