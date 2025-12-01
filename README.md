@@ -75,9 +75,9 @@ SEC_API_KEY=your_sec_api_token_here
 python src/download_multi_company_api.py
 
 # 6. Process & embed filings
-python src/process_10k_files.py
-python src/chunk_processor.py
-python src/generate_embeddings.py
+python src/multi_processor.py
+python src/multi_chunking.py
+python src/multi_embedding.py
 
 # 7. Launch the application
 cd src
