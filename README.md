@@ -65,9 +65,9 @@ cd FinRAG--A-Multi-Company-Retrieval-Augmented-Generation-System-for-Financial-S
 pip install -r requirements.txt
 
 # 3. Configure environment
-cp .env.example .env
+create .env
 # Add OpenAI API key inside .env
-OPENAI_API_KEY=sk-your-actual-openai-api-key-here
+OPENAI_API_KEY=your-actual-openai-api-key-here
 # Add SEC API key inside .env
 SEC_API_KEY=your_sec_api_token_here
 
