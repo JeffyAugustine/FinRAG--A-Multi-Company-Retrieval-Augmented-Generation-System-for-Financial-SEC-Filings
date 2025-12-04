@@ -114,6 +114,21 @@ streamlit run streamlit_app.py
 -   "Microsoft legal proceedings 2024"
 
 ## 📈 Performance Evaluation
+### IR Metrics (Retrieval Accuracy)
+
+| Method | Precision@3 | Recall@10 | MRR | Avg Time |
+|--------|-------------|-----------|-----|----------|
+| **Hybrid** | **0.778** | 0.122 | **0.833** | 2.78s |
+| **Semantic** | 0.667 | 0.122 | **0.833** | 2.46s |
+| **Keyword** | 0.556 | 0.114 | 0.500 | **2.11s** |
+
+### RAG Metrics (Retrieval Quality)
+
+| Method | Semantic Cohesion | Usable Chunks | Unique Sections | Avg Chunk Length |
+|--------|-------------------|---------------|-----------------|------------------|
+| **Keyword** | **0.633** | **100%** | 2.0 | 294 words |
+| **Semantic** | 0.582 | **100%** | **2.3** | **338 words** |
+| **Hybrid** | 0.481 | **100%** | **2.3** | **338 words** |
 
 ### Overall Search Method Performance
 
