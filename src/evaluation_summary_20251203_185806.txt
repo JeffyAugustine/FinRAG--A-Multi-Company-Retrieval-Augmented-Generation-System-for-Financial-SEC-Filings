@@ -1,0 +1,49 @@
+RAG EVALUATION SUMMARY
+Date: 20251203_185806
+Queries: 3
+
+
+SEMANTIC SEARCH:
+IR METRICS:
+  • Precision@3: 0.667
+  • Recall@10:   0.122
+  • MRR:         0.833
+  • Avg Time:    2.46s
+
+RAG METRICS:
+  • Semantic Cohesion: 0.582
+  • Usable Chunks:     100.0%
+  • Unique Sections:   2.3
+  • Avg Chunk Length:  338 words
+  • Avg Similarity:    0.582
+  • Queries Evaluated: 3
+
+HYBRID SEARCH:
+IR METRICS:
+  • Precision@3: 0.778
+  • Recall@10:   0.122
+  • MRR:         0.833
+  • Avg Time:    2.78s
+
+RAG METRICS:
+  • Semantic Cohesion: 0.481
+  • Usable Chunks:     100.0%
+  • Unique Sections:   2.3
+  • Avg Chunk Length:  338 words
+  • Avg Similarity:    0.481
+  • Queries Evaluated: 3
+
+KEYWORD SEARCH:
+IR METRICS:
+  • Precision@3: 0.556
+  • Recall@10:   0.114
+  • MRR:         0.500
+  • Avg Time:    2.11s
+
+RAG METRICS:
+  • Semantic Cohesion: 0.633
+  • Usable Chunks:     100.0%
+  • Unique Sections:   2.0
+  • Avg Chunk Length:  294 words
+  • Avg Similarity:    0.633
+  • Queries Evaluated: 3

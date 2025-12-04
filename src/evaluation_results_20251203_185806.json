@@ -1,0 +1,364 @@
+{
+  "timestamp": "20251203_185806",
+  "test_queries": [
+    "What were Apple's main competitive risks mentioned in the 2023 10-K?",
+    "What were Apple's R&D expenses in 2023 and 2024?",
+    "What supply chain risks does Apple face?"
+  ],
+  "ground_truth_available": [
+    "What were Apple's main competitive risks mentioned in the 2023 10-K?",
+    "What were Apple's R&D expenses in 2023 and 2024?",
+    "What supply chain risks does Apple face?",
+    "How does Apple generate revenue from services?",
+    "What legal proceedings involving antitrust is Apple currently facing?"
+  ],
+  "results": {
+    "semantic": [
+      {
+        "query": "What were Apple's main competitive risks mentioned in the 2023 10-K?",
+        "search_method": "semantic",
+        "search_time": 4.430496692657471,
+        "retrieved_count": 5,
+        "metrics": {
+          "rag_metrics": {
+            "coverage": {
+              "unique_sections": 3,
+              "total_sections": 5,
+              "section_diversity": 0.6
+            },
+            "cohesion": 0.6006779073156708,
+            "chunk_quality": {
+              "usable_chunks": 5,
+              "usable_percentage": 100.0,
+              "avg_length": 380.2,
+              "avg_similarity": 0.6006779073156708
+            }
+          },
+          "ir_metrics": {
+            "precision@3": 0.6666666666666666,
+            "recall@10": 0.07692307692307693,
+            "mrr": 0.5
+          }
+        },
+        "retrieved_ids": [
+          "AAPL_2024_risk_factors_4",
+          "AAPL_2023_risk_factors_4",
+          "AAPL_2023_business_1",
+          "AAPL_2024_business_1",
+          "AAPL_2024_mda_0"
+        ]
+      },
+      {
+        "query": "What were Apple's R&D expenses in 2023 and 2024?",
+        "search_method": "semantic",
+        "search_time": 0.5973899364471436,
+        "retrieved_count": 5,
+        "metrics": {
+          "rag_metrics": {
+            "coverage": {
+              "unique_sections": 2,
+              "total_sections": 5,
+              "section_diversity": 0.4
+            },
+            "cohesion": 0.6184115074082047,
+            "chunk_quality": {
+              "usable_chunks": 5,
+              "usable_percentage": 100.0,
+              "avg_length": 242.4,
+              "avg_similarity": 0.6184115074082047
+            }
+          },
+          "ir_metrics": {
+            "precision@3": 0.6666666666666666,
+            "recall@10": 0.16666666666666666,
+            "mrr": 1.0
+          }
+        },
+        "retrieved_ids": [
+          "AAPL_2024_mda_3",
+          "AAPL_2023_mda_4",
+          "AAPL_2023_financials_9",
+          "AAPL_2024_mda_2",
+          "AAPL_2024_mda_1"
+        ]
+      },
+      {
+        "query": "What supply chain risks does Apple face?",
+        "search_method": "semantic",
+        "search_time": 2.342167377471924,
+        "retrieved_count": 5,
+        "metrics": {
+          "rag_metrics": {
+            "coverage": {
+              "unique_sections": 2,
+              "total_sections": 5,
+              "section_diversity": 0.4
+            },
+            "cohesion": 0.5266500362872968,
+            "chunk_quality": {
+              "usable_chunks": 5,
+              "usable_percentage": 100.0,
+              "avg_length": 392.4,
+              "avg_similarity": 0.5266500362872968
+            }
+          },
+          "ir_metrics": {
+            "precision@3": 0.6666666666666666,
+            "recall@10": 0.12121212121212122,
+            "mrr": 1.0
+          }
+        },
+        "retrieved_ids": [
+          "AAPL_2024_risk_factors_2",
+          "AAPL_2024_financials_24",
+          "AAPL_2023_risk_factors_6",
+          "AAPL_2024_risk_factors_6",
+          "AAPL_2024_risk_factors_7"
+        ]
+      }
+    ],
+    "hybrid": [
+      {
+        "query": "What were Apple's main competitive risks mentioned in the 2023 10-K?",
+        "search_method": "hybrid",
+        "search_time": 2.5294711589813232,
+        "retrieved_count": 5,
+        "metrics": {
+          "rag_metrics": {
+            "coverage": {
+              "unique_sections": 3,
+              "total_sections": 5,
+              "section_diversity": 0.6
+            },
+            "cohesion": 0.4204932663614184,
+            "chunk_quality": {
+              "usable_chunks": 5,
+              "usable_percentage": 100.0,
+              "avg_length": 380.2,
+              "avg_similarity": 0.4204932663614184
+            }
+          },
+          "ir_metrics": {
+            "precision@3": 0.6666666666666666,
+            "recall@10": 0.07692307692307693,
+            "mrr": 0.5
+          }
+        },
+        "retrieved_ids": [
+          "AAPL_2024_risk_factors_4",
+          "AAPL_2023_risk_factors_4",
+          "AAPL_2023_business_1",
+          "AAPL_2024_business_1",
+          "AAPL_2024_mda_0"
+        ]
+      },
+      {
+        "query": "What were Apple's R&D expenses in 2023 and 2024?",
+        "search_method": "hybrid",
+        "search_time": 3.2853238582611084,
+        "retrieved_count": 5,
+        "metrics": {
+          "rag_metrics": {
+            "coverage": {
+              "unique_sections": 2,
+              "total_sections": 5,
+              "section_diversity": 0.4
+            },
+            "cohesion": 0.5932973735559001,
+            "chunk_quality": {
+              "usable_chunks": 5,
+              "usable_percentage": 100.0,
+              "avg_length": 242.4,
+              "avg_similarity": 0.5932973735559001
+            }
+          },
+          "ir_metrics": {
+            "precision@3": 0.6666666666666666,
+            "recall@10": 0.16666666666666666,
+            "mrr": 1.0
+          }
+        },
+        "retrieved_ids": [
+          "AAPL_2024_mda_2",
+          "AAPL_2024_mda_3",
+          "AAPL_2024_mda_1",
+          "AAPL_2023_mda_4",
+          "AAPL_2023_financials_9"
+        ]
+      },
+      {
+        "query": "What supply chain risks does Apple face?",
+        "search_method": "hybrid",
+        "search_time": 2.5370020866394043,
+        "retrieved_count": 5,
+        "metrics": {
+          "rag_metrics": {
+            "coverage": {
+              "unique_sections": 2,
+              "total_sections": 5,
+              "section_diversity": 0.4
+            },
+            "cohesion": 0.4280674098798601,
+            "chunk_quality": {
+              "usable_chunks": 5,
+              "usable_percentage": 100.0,
+              "avg_length": 392.4,
+              "avg_similarity": 0.4280674098798601
+            }
+          },
+          "ir_metrics": {
+            "precision@3": 1.0,
+            "recall@10": 0.12121212121212122,
+            "mrr": 1.0
+          }
+        },
+        "retrieved_ids": [
+          "AAPL_2024_risk_factors_6",
+          "AAPL_2023_risk_factors_6",
+          "AAPL_2024_risk_factors_2",
+          "AAPL_2024_financials_24",
+          "AAPL_2024_risk_factors_7"
+        ]
+      }
+    ],
+    "keyword": [
+      {
+        "query": "What were Apple's main competitive risks mentioned in the 2023 10-K?",
+        "search_method": "keyword",
+        "search_time": 2.2197771072387695,
+        "retrieved_count": 5,
+        "metrics": {
+          "rag_metrics": {
+            "coverage": {
+              "unique_sections": 2,
+              "total_sections": 5,
+              "section_diversity": 0.4
+            },
+            "cohesion": 0.5423890238545847,
+            "chunk_quality": {
+              "usable_chunks": 5,
+              "usable_percentage": 100.0,
+              "avg_length": 280.8,
+              "avg_similarity": 0.5423890238545847
+            }
+          },
+          "ir_metrics": {
+            "precision@3": 0.0,
+            "recall@10": 0.0,
+            "mrr": 0
+          }
+        },
+        "retrieved_ids": [
+          "AAPL_2023_mda_3",
+          "AAPL_2023_mda_0",
+          "AAPL_2024_mda_2",
+          "AAPL_2024_mda_3",
+          "AAPL_2023_financials_29"
+        ]
+      },
+      {
+        "query": "What were Apple's R&D expenses in 2023 and 2024?",
+        "search_method": "keyword",
+        "search_time": 2.1520206928253174,
+        "retrieved_count": 5,
+        "metrics": {
+          "rag_metrics": {
+            "coverage": {
+              "unique_sections": 2,
+              "total_sections": 5,
+              "section_diversity": 0.4
+            },
+            "cohesion": 0.8629129936083686,
+            "chunk_quality": {
+              "usable_chunks": 5,
+              "usable_percentage": 100.0,
+              "avg_length": 203.8,
+              "avg_similarity": 0.8629129936083686
+            }
+          },
+          "ir_metrics": {
+            "precision@3": 1.0,
+            "recall@10": 0.2222222222222222,
+            "mrr": 1.0
+          }
+        },
+        "retrieved_ids": [
+          "AAPL_2024_mda_2",
+          "AAPL_2024_mda_3",
+          "AAPL_2024_financials_16",
+          "AAPL_2024_mda_1",
+          "AAPL_2024_financials_26"
+        ]
+      },
+      {
+        "query": "What supply chain risks does Apple face?",
+        "search_method": "keyword",
+        "search_time": 1.971360206604004,
+        "retrieved_count": 5,
+        "metrics": {
+          "rag_metrics": {
+            "coverage": {
+              "unique_sections": 2,
+              "total_sections": 5,
+              "section_diversity": 0.4
+            },
+            "cohesion": 0.4929445468661786,
+            "chunk_quality": {
+              "usable_chunks": 5,
+              "usable_percentage": 100.0,
+              "avg_length": 398.4,
+              "avg_similarity": 0.4929445468661786
+            }
+          },
+          "ir_metrics": {
+            "precision@3": 0.6666666666666666,
+            "recall@10": 0.12121212121212122,
+            "mrr": 0.5
+          }
+        },
+        "retrieved_ids": [
+          "AAPL_2023_financials_30",
+          "AAPL_2024_risk_factors_6",
+          "AAPL_2023_risk_factors_6",
+          "AAPL_2024_risk_factors_3",
+          "AAPL_2023_risk_factors_3"
+        ]
+      }
+    ]
+  },
+  "comparison": {
+    "methods": [
+      "semantic",
+      "hybrid",
+      "keyword"
+    ],
+    "averages": {
+      "semantic": {
+        "precision@3": 0.6666666666666666,
+        "recall@10": 0.12160062160062161,
+        "mrr": 0.8333333333333334,
+        "avg_search_time": 2.456684668858846,
+        "avg_unique_sections": 2.3333333333333335,
+        "queries_evaluated": 3
+      },
+      "hybrid": {
+        "precision@3": 0.7777777777777777,
+        "recall@10": 0.12160062160062161,
+        "mrr": 0.8333333333333334,
+        "avg_search_time": 2.783932367960612,
+        "avg_unique_sections": 2.3333333333333335,
+        "queries_evaluated": 3
+      },
+      "keyword": {
+        "precision@3": 0.5555555555555555,
+        "recall@10": 0.11447811447811447,
+        "mrr": 0.5,
+        "avg_search_time": 2.114386002222697,
+        "avg_unique_sections": 2.0,
+        "queries_evaluated": 3
+      }
+    },
+    "cost_saving": "No answer generation"
+  },
+  "notes": "Low-cost evaluation - no answer generation"
+}
